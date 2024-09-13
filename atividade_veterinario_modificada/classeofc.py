@@ -12,19 +12,19 @@ class Cachorro:
 
     def getNome(self):
         return self.nome
-
+    
     def setNome(self, nome):
         self.nome = nome
 
     def getRaca(self):
         return self.raca
-
+    
     def setRaca(self, raca):
         self.raca = raca
 
     def getDono(self):
         return self.dono
-
+    
     def setDono(self, dono):
         self.dono = dono
 
@@ -43,7 +43,7 @@ class Cachorro:
     def setDiag(self, diag):
         self.diag = diag
     
-    
+     
 class Gato:
     def __init__ (self, nome, cor, dono, idade):
         self.nome = nome
@@ -88,4 +88,3 @@ class Gato:
     
     def setDiag(self, diag):
         self.diag = diag
-
