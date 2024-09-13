@@ -1,0 +1,1 @@
+escolha = int(input("1 ou 2\n--> "))
